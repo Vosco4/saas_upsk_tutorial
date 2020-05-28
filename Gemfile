@@ -29,6 +29,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Use Bootstrap library for front-end UI and layout
 gem 'bootstrap', '~> 4.4.1'
 
+# Use Font Awesome Sass gem for adding icons
+gem 'font-awesome-sass', '~> 5.12.0' 
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.4'
